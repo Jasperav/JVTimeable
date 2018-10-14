@@ -1,0 +1,23 @@
+PODS:
+  - JVRestartable (0.1.3)
+  - JVTimeable (0.1.1):
+    - JVRestartable
+
+DEPENDENCIES:
+  - JVTimeable (from `../`)
+
+SPEC REPOS:
+  "https://Jasperav@bitbucket.org/Jasperav/specs.git":
+    - JVRestartable
+
+EXTERNAL SOURCES:
+  JVTimeable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVRestartable: b89f9ad49a589ea88e0385cbbe5a3cce95586e55
+  JVTimeable: f2f1e3df5d7e561813a732176c45084a4636bb61
+
+PODFILE CHECKSUM: 0b9d7815d6e5e213b52624b05a2979224e04b437
+
+COCOAPODS: 1.6.0.beta.1

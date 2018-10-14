@@ -1,0 +1,6 @@
+framework module Pods_JVTimeable_Tests {
+  umbrella header "Pods-JVTimeable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

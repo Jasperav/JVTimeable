@@ -1,0 +1,27 @@
+{
+  "name": "JVTimeable",
+  "version": "0.1.1",
+  "summary": "JVTimeable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://google.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jasperav": "Jasperav@hotmail.com"
+  },
+  "source": {
+    "git": "https://Jasperav@bitbucket.org/Jasperav/jvtimeable.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "JVTimeable/Classes/**/*",
+  "dependencies": {
+    "JVRestartable": [
+
+    ]
+  }
+}
