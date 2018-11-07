@@ -1,10 +1,14 @@
-/// Protocols dont let me add @objc methods to it :'(
-
+/// Protocols dont let me add @objc methods, so a few functions are placed in the class itself.
 /// Use this class when you want a 100% accurate timer without side effects e.g. scrolling a tableview.
 /// see https://stackoverflow.com/questions/45340753/swift-3-2-timer-with-tableview
+
 open class TimeableWrapperCommonModes: TimeableWrapper {
+    
     public init(timerIntervalSeconds: TimeInterval, continueTimingWhenPaused: Bool, repeatTimerAfterCompletion: Bool) {
-        super.init(timerIntervalSeconds: timerIntervalSeconds, continueTimingWhenPaused: continueTimingWhenPaused, repeatTimerAfterCompletion: repeatTimerAfterCompletion, runLoop: .commonModes)
+        super.init(timerIntervalSeconds: timerIntervalSeconds,
+                   continueTimingWhenPaused: continueTimingWhenPaused,
+                   repeatTimerAfterCompletion: repeatTimerAfterCompletion,
+                   runLoop: .commonModes)
     }
     
     public func startTimer(_ customTimeInterval: TimeInterval?) {
@@ -17,7 +21,7 @@ open class TimeableWrapperCommonModes: TimeableWrapper {
                                userInfo: nil,
                                repeats: self.repeatTimerAfterCompletion)
             
-            RunLoop.current.add(self.timer!, forMode: RunLoop.Mode.common)
+            RunLoop.current.add(self.timer!, forMode: RunLoopMode.commonModes)
         }
     }
     
@@ -27,6 +31,7 @@ open class TimeableWrapperCommonModes: TimeableWrapper {
     
     @objc private func _timerHasFiredSingleUsableTimer() {
         timerHasFired()
+        
         if self.repeatTimerAfterCompletion {
             self.startTimer(nil)
         }
@@ -42,7 +47,7 @@ open class TimeableWrapperCommonModes: TimeableWrapper {
                                userInfo: nil,
                                repeats: false)
             
-            RunLoop.current.add(self.timer!, forMode: RunLoop.Mode.common)
+            RunLoop.current.add(self.timer!, forMode: RunLoopMode.commonModes)
         }
     }
 }

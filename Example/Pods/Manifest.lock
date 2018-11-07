@@ -1,6 +1,6 @@
 PODS:
-  - JVRestartable (0.1.3)
-  - JVTimeable (0.1.1):
+  - JVRestartable (0.1.4)
+  - JVTimeable (0.1.6):
     - JVRestartable
 
 DEPENDENCIES:
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVRestartable: b89f9ad49a589ea88e0385cbbe5a3cce95586e55
-  JVTimeable: f2f1e3df5d7e561813a732176c45084a4636bb61
+  JVRestartable: 10d08fbc43209829281cdb916630848a37498a80
+  JVTimeable: ffa32e05c3a33ead1042066b4f33c26441dd3ef1
 
 PODFILE CHECKSUM: 0b9d7815d6e5e213b52624b05a2979224e04b437
 

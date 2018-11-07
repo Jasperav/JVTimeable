@@ -8,23 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		002BF4A1DBA3D05282083BFED21539DF /* TimeableWrapperCommonModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0A7952F3AE71BB54FB938E4A3F93CD /* TimeableWrapperCommonModes.swift */; };
-		00B9E00344275F94F62DCEC691FB6321 /* RestartableStateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57738399E773206016D41F6AA2E08902 /* RestartableStateable.swift */; };
+		08F835D041DA9DEC099D75DDB381C17B /* JVRestartable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DF5468EEC86D4F24C76BFD9CF0B45B /* JVRestartable-dummy.m */; };
 		158CA45DB6343A45532E72875BED87E9 /* JVTimeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADA30D4A71D616DDB087342076BEDA3 /* JVTimeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2562B76D9FE6F0C787912656279D8A84 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCA315C646460D4F7A7BBEA63E6DEE /* CollectionExtensions.swift */; };
 		38B67ED445024A67E44ADA509AB6ED95 /* JVTimeable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD42213E399784082D4F3D8042707852 /* JVTimeable-dummy.m */; };
-		4C53A418BD5D41FD1ED4E3BAA1D4205B /* JVRestartable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A9F67F15898F40DE438099BAD4C64 /* JVRestartable-dummy.m */; };
+		4A03081ED5555CBBAF741148911D41B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DD6A5CB79C328AF758B6471302C738 /* Foundation.framework */; };
 		4E53AF3ADD4D5CF5C165298C3254F087 /* JVRestartable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC90DE5F577FD167791EAE4AEDBE3C1 /* JVRestartable.framework */; };
-		51056AEB771587B5194DF9CE03CF9255 /* Restartable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F980E2240AB537948F2C0DBE901ACB /* Restartable.swift */; };
+		58F68695259CB12771631E1BE9EF0AE5 /* RestartableStateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0869FD1DAE89FFBF0BC213C8396429B /* RestartableStateable.swift */; };
 		740A8C7A9178E4E14E6BED00692F74B5 /* Timeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C265EE4D9F83F27D2F9637451AD4B4 /* Timeable.swift */; };
-		AFC19C2A72EA56885A808D4792C29B0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DD6A5CB79C328AF758B6471302C738 /* Foundation.framework */; };
+		956F46ABDE556D9248A19F9507A79BD1 /* RestartableManageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17177750B5A55226CFEB10A3D4226D7 /* RestartableManageable.swift */; };
 		B19CF114092D0DDF2FE9230AFB8A4DE8 /* Pods-JVTimeable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24DEE64F13DF754F270DAA15C94307 /* Pods-JVTimeable_Tests-dummy.m */; };
 		B492793F1A0659AC26DFA33FAE49D7D6 /* Pods-JVTimeable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A730AC592C7F05E3E919C27DFD6A39A /* Pods-JVTimeable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C03FC2B5AF90A9C49FDE987C1FB087F9 /* RestartableManageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62505BC3D6ADC60A7EE4F4F07808F83 /* RestartableManageable.swift */; };
-		C154F393E51160DFD1AE1CC5D6DF4F54 /* RestartableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C8E2B20333C5DC5360C04F3A0627B /* RestartableState.swift */; };
+		BE98C84F181A982D5C4F1E519938162B /* RestartableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877D3515EF4ABDCE0A08E928EE2DE603 /* RestartableState.swift */; };
 		C4B9037EB04CAA76B3E1239D47D52B06 /* TimeableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776168415D7FEAA7F965283D2FC01A8B /* TimeableWrapper.swift */; };
 		CE60570EF877B795E98883A42A7E3635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DD6A5CB79C328AF758B6471302C738 /* Foundation.framework */; };
 		D8BB988AD8108043E75188C2568CA527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DD6A5CB79C328AF758B6471302C738 /* Foundation.framework */; };
 		D98023C947646E8123DA3DC47E7B50AC /* TimeableRunLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8353451048E2487ABCBCD7F7D473D07 /* TimeableRunLoop.swift */; };
-		ED927A3368E459E894FAD381F8324D70 /* JVRestartable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F39DD1D7B85CBCBFAF76FEE05D649C73 /* JVRestartable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E83812700FB3E44DD453CFE8A8094381 /* JVRestartable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D669197A1594E870AD809220ED7A389 /* JVRestartable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD2DFCDE044041939C1079C9ABD4FC1B /* Restartable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A06FA65B382E8CA3C4DC35D6F935D /* Restartable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB9AAD00F169073B0203E97560B42F4E;
+			remoteGlobalIDString = 2EDB19CDD87F3420C595CB47FC568598;
 			remoteInfo = JVRestartable;
 		};
 		A74B1261B8C797CF5A61F94AA01DD37D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB9AAD00F169073B0203E97560B42F4E;
+			remoteGlobalIDString = 2EDB19CDD87F3420C595CB47FC568598;
 			remoteInfo = JVRestartable;
 		};
 		DB18208AA8935E09C3642EC272A7BE97 /* PBXContainerItemProxy */ = {
@@ -52,43 +53,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06F980E2240AB537948F2C0DBE901ACB /* Restartable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Restartable.swift; path = JVRestartable/Classes/Restartable.swift; sourceTree = "<group>"; };
 		10039EB2EB7BD1951CFA9EA8C1BD3088 /* Pods-JVTimeable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTimeable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		25743867921EB963A51BC71D712CDD88 /* Pods_JVTimeable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVTimeable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35FC0C35FA9EB181702841AAB76DA371 /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25743867921EB963A51BC71D712CDD88 /* Pods_JVTimeable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVTimeable_Tests.framework; path = "Pods-JVTimeable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259E0A05C3E1300A9697B37CA51671B1 /* JVRestartable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVRestartable-Info.plist"; sourceTree = "<group>"; };
+		2D669197A1594E870AD809220ED7A389 /* JVRestartable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVRestartable-umbrella.h"; sourceTree = "<group>"; };
+		35FC0C35FA9EB181702841AAB76DA371 /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVRestartable.framework; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3827389CB157DA733B25950C4AB4CA33 /* JVTimeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVTimeable.xcconfig; sourceTree = "<group>"; };
 		463AE426B509BF864A45CC04A651DA3C /* Pods-JVTimeable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTimeable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		465A9F67F15898F40DE438099BAD4C64 /* JVRestartable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVRestartable-dummy.m"; sourceTree = "<group>"; };
 		4ADA30D4A71D616DDB087342076BEDA3 /* JVTimeable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTimeable-umbrella.h"; sourceTree = "<group>"; };
-		57738399E773206016D41F6AA2E08902 /* RestartableStateable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableStateable.swift; path = JVRestartable/Classes/RestartableStateable.swift; sourceTree = "<group>"; };
 		57C265EE4D9F83F27D2F9637451AD4B4 /* Timeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeable.swift; path = JVTimeable/Classes/Timeable.swift; sourceTree = "<group>"; };
-		5B7AF71483B56D8D2103D446AC0FD77C /* JVRestartable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVRestartable.xcconfig; sourceTree = "<group>"; };
 		6376D7CC64A362628BFCFE2A32A8DB45 /* Pods-JVTimeable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVTimeable_Tests-Info.plist"; sourceTree = "<group>"; };
-		6B3C8E2B20333C5DC5360C04F3A0627B /* RestartableState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableState.swift; path = JVRestartable/Classes/RestartableState.swift; sourceTree = "<group>"; };
-		6C453667A4BCEA92B6639769655BDD36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6A1A06FA65B382E8CA3C4DC35D6F935D /* Restartable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Restartable.swift; path = JVRestartable/Classes/Restartable.swift; sourceTree = "<group>"; };
+		6B2FC6EAD48D7A0751D84FF1CA402022 /* JVRestartable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVRestartable.modulemap; sourceTree = "<group>"; };
+		6C453667A4BCEA92B6639769655BDD36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		776168415D7FEAA7F965283D2FC01A8B /* TimeableWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeableWrapper.swift; path = JVTimeable/Classes/TimeableWrapper.swift; sourceTree = "<group>"; };
-		7C278F25D79F5FFA8A91539E9CDDFBFA /* JVRestartable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVRestartable-Info.plist"; sourceTree = "<group>"; };
 		81DDA540E3792A916D3B1B21EB5BF027 /* JVTimeable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVTimeable.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8313D1A51AE44747FDC36899BAA05EC5 /* JVRestartable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVRestartable-prefix.pch"; sourceTree = "<group>"; };
+		877D3515EF4ABDCE0A08E928EE2DE603 /* RestartableState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableState.swift; path = JVRestartable/Classes/RestartableState.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DF5468EEC86D4F24C76BFD9CF0B45B /* JVRestartable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVRestartable-dummy.m"; sourceTree = "<group>"; };
 		9A730AC592C7F05E3E919C27DFD6A39A /* Pods-JVTimeable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVTimeable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9B69B5FC7848D06AAA6D8189589A7E23 /* JVTimeable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVTimeable-Info.plist"; sourceTree = "<group>"; };
-		A0D13B8B1ABA5CE8E1C15A7E6EA99A89 /* JVTimeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVTimeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D13B8B1ABA5CE8E1C15A7E6EA99A89 /* JVTimeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVTimeable.framework; path = JVTimeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16350288F263F2A9BF017665D5F7D79 /* JVRestartable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVRestartable.xcconfig; sourceTree = "<group>"; };
 		A6DD6A5CB79C328AF758B6471302C738 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AEDF3FE38ADBFE4D80B52E16EA33218C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AEDF3FE38ADBFE4D80B52E16EA33218C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AFBF73565BD914576966BAF4CD490553 /* Pods-JVTimeable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVTimeable_Tests.modulemap"; sourceTree = "<group>"; };
 		B2397E4A6D2C9F8552159F4444ACB277 /* Pods-JVTimeable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVTimeable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B62505BC3D6ADC60A7EE4F4F07808F83 /* RestartableManageable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableManageable.swift; path = JVRestartable/Classes/RestartableManageable.swift; sourceTree = "<group>"; };
 		BD42213E399784082D4F3D8042707852 /* JVTimeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVTimeable-dummy.m"; sourceTree = "<group>"; };
+		C0869FD1DAE89FFBF0BC213C8396429B /* RestartableStateable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableStateable.swift; path = JVRestartable/Classes/RestartableStateable.swift; sourceTree = "<group>"; };
 		CB5B276EE802FD04695409DA5EECCFBA /* Pods-JVTimeable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVTimeable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D261F79CE9A191F257F45000F66EC02B /* JVRestartable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVRestartable-prefix.pch"; sourceTree = "<group>"; };
 		D7594D839F9171AA9F3F64038C3957BA /* Pods-JVTimeable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVTimeable_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D8353451048E2487ABCBCD7F7D473D07 /* TimeableRunLoop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeableRunLoop.swift; path = JVTimeable/Classes/TimeableRunLoop.swift; sourceTree = "<group>"; };
 		DAC76BDC25F0CF8A1EB9D0185246EA1E /* JVTimeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTimeable-prefix.pch"; sourceTree = "<group>"; };
 		DD0A7952F3AE71BB54FB938E4A3F93CD /* TimeableWrapperCommonModes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeableWrapperCommonModes.swift; path = JVTimeable/Classes/TimeableWrapperCommonModes.swift; sourceTree = "<group>"; };
 		DF24DEE64F13DF754F270DAA15C94307 /* Pods-JVTimeable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVTimeable_Tests-dummy.m"; sourceTree = "<group>"; };
-		F39DD1D7B85CBCBFAF76FEE05D649C73 /* JVRestartable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVRestartable-umbrella.h"; sourceTree = "<group>"; };
-		F3AB7987CECDF3BDE82856A86DA227C2 /* JVTimeable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVTimeable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F550BC34A4ADDB32F5A1DDE93E772ED5 /* JVRestartable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVRestartable.modulemap; sourceTree = "<group>"; };
+		F17177750B5A55226CFEB10A3D4226D7 /* RestartableManageable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableManageable.swift; path = JVRestartable/Classes/RestartableManageable.swift; sourceTree = "<group>"; };
+		F3AB7987CECDF3BDE82856A86DA227C2 /* JVTimeable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JVTimeable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5BCA315C646460D4F7A7BBEA63E6DEE /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVRestartable/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
 		FCC90DE5F577FD167791EAE4AEDBE3C1 /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,11 +112,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C735D653636AB7BA2B09A22C345309EF /* Frameworks */ = {
+		C900C8687ED2247796B3E8B31A831824 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC19C2A72EA56885A808D4792C29B0F /* Foundation.framework in Frameworks */,
+				4A03081ED5555CBBAF741148911D41B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,13 +174,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5A411B8DA4BA398D3E386DA0F6C68BE0 /* JVRestartable */ = {
+			isa = PBXGroup;
+			children = (
+				F5BCA315C646460D4F7A7BBEA63E6DEE /* CollectionExtensions.swift */,
+				6A1A06FA65B382E8CA3C4DC35D6F935D /* Restartable.swift */,
+				F17177750B5A55226CFEB10A3D4226D7 /* RestartableManageable.swift */,
+				877D3515EF4ABDCE0A08E928EE2DE603 /* RestartableState.swift */,
+				C0869FD1DAE89FFBF0BC213C8396429B /* RestartableStateable.swift */,
+				75E361D8A42F6B177CEDF1EE0750D83D /* Support Files */,
+			);
+			name = JVRestartable;
+			path = JVRestartable;
+			sourceTree = "<group>";
+		};
+		75E361D8A42F6B177CEDF1EE0750D83D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B2FC6EAD48D7A0751D84FF1CA402022 /* JVRestartable.modulemap */,
+				A16350288F263F2A9BF017665D5F7D79 /* JVRestartable.xcconfig */,
+				94DF5468EEC86D4F24C76BFD9CF0B45B /* JVRestartable-dummy.m */,
+				259E0A05C3E1300A9697B37CA51671B1 /* JVRestartable-Info.plist */,
+				8313D1A51AE44747FDC36899BAA05EC5 /* JVRestartable-prefix.pch */,
+				2D669197A1594E870AD809220ED7A389 /* JVRestartable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVRestartable";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E3FB71D8CA75FFFD4FF297B80FA378E1 /* Development Pods */,
 				0FD8DF964E424C3BC79A300691A6AC84 /* Frameworks */,
-				C009B2CA32EAD4E2F1BD94324F09506C /* Pods */,
+				E1263DCE8BA241089613691517E6D8D7 /* Pods */,
 				38848D5415EB5CEABCF6A4D499CAA267 /* Products */,
 				D9A3DDDFF15CD668D42DD7270FE69E97 /* Targets Support Files */,
 			);
@@ -196,26 +226,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JVTimeable";
-			sourceTree = "<group>";
-		};
-		9D7E90DA8A1AFB84276723CFB7D90D12 /* JVRestartable */ = {
-			isa = PBXGroup;
-			children = (
-				06F980E2240AB537948F2C0DBE901ACB /* Restartable.swift */,
-				B62505BC3D6ADC60A7EE4F4F07808F83 /* RestartableManageable.swift */,
-				6B3C8E2B20333C5DC5360C04F3A0627B /* RestartableState.swift */,
-				57738399E773206016D41F6AA2E08902 /* RestartableStateable.swift */,
-				FE516F0EB54F24201D3548266736F1AC /* Support Files */,
-			);
-			path = JVRestartable;
-			sourceTree = "<group>";
-		};
-		C009B2CA32EAD4E2F1BD94324F09506C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9D7E90DA8A1AFB84276723CFB7D90D12 /* JVRestartable */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		D54B695052D6D52EC2222EBB3774649A /* Pods-JVTimeable_Tests */ = {
@@ -243,6 +253,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E1263DCE8BA241089613691517E6D8D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A411B8DA4BA398D3E386DA0F6C68BE0 /* JVRestartable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E3FB71D8CA75FFFD4FF297B80FA378E1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,31 +269,9 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		FE516F0EB54F24201D3548266736F1AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F550BC34A4ADDB32F5A1DDE93E772ED5 /* JVRestartable.modulemap */,
-				5B7AF71483B56D8D2103D446AC0FD77C /* JVRestartable.xcconfig */,
-				465A9F67F15898F40DE438099BAD4C64 /* JVRestartable-dummy.m */,
-				7C278F25D79F5FFA8A91539E9CDDFBFA /* JVRestartable-Info.plist */,
-				D261F79CE9A191F257F45000F66EC02B /* JVRestartable-prefix.pch */,
-				F39DD1D7B85CBCBFAF76FEE05D649C73 /* JVRestartable-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JVRestartable";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2419EE096162D9CE73C3DB40CB36279F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED927A3368E459E894FAD381F8324D70 /* JVRestartable-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6350409DABE4CC2BE6C64F4B62C2DA4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,9 +288,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB3490DA16727A76590C266CA744A009 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83812700FB3E44DD453CFE8A8094381 /* JVRestartable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2EDB19CDD87F3420C595CB47FC568598 /* JVRestartable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B4DD82890C8B68955F6FE11F2A07EC /* Build configuration list for PBXNativeTarget "JVRestartable" */;
+			buildPhases = (
+				BB3490DA16727A76590C266CA744A009 /* Headers */,
+				2E19B8A1ECFFC7E6D9502E3490044966 /* Sources */,
+				C900C8687ED2247796B3E8B31A831824 /* Frameworks */,
+				7CF49936914F68B04C9E2E43310AEFFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVRestartable;
+			productName = JVRestartable;
+			productReference = 35FC0C35FA9EB181702841AAB76DA371 /* JVRestartable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		65045D52ABFBC5A1633D3E76CCAFAAAB /* Pods-JVTimeable_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65D5C10749659C94B995700B1DAD5583 /* Build configuration list for PBXNativeTarget "Pods-JVTimeable_Tests" */;
@@ -334,24 +356,6 @@
 			productReference = A0D13B8B1ABA5CE8E1C15A7E6EA99A89 /* JVTimeable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB9AAD00F169073B0203E97560B42F4E /* JVRestartable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 736C917896F9EDA2BA69E2062796B3AD /* Build configuration list for PBXNativeTarget "JVRestartable" */;
-			buildPhases = (
-				2419EE096162D9CE73C3DB40CB36279F /* Headers */,
-				DC25FC155C50CC924F5525D064AD6FD5 /* Sources */,
-				C735D653636AB7BA2B09A22C345309EF /* Frameworks */,
-				0D8E89580679B2562D570D7E8444A4F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JVRestartable;
-			productName = JVRestartable;
-			productReference = 35FC0C35FA9EB181702841AAB76DA371 /* JVRestartable.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -373,7 +377,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB9AAD00F169073B0203E97560B42F4E /* JVRestartable */,
+				2EDB19CDD87F3420C595CB47FC568598 /* JVRestartable */,
 				D3E0BF7BC793D68D01BBDF321202875F /* JVTimeable */,
 				65045D52ABFBC5A1633D3E76CCAFAAAB /* Pods-JVTimeable_Tests */,
 			);
@@ -381,14 +385,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D8E89580679B2562D570D7E8444A4F1 /* Resources */ = {
+		4F4151E5DEA4BEE7B209AE8559BE7239 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F4151E5DEA4BEE7B209AE8559BE7239 /* Resources */ = {
+		7CF49936914F68B04C9E2E43310AEFFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,6 +409,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2E19B8A1ECFFC7E6D9502E3490044966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2562B76D9FE6F0C787912656279D8A84 /* CollectionExtensions.swift in Sources */,
+				08F835D041DA9DEC099D75DDB381C17B /* JVRestartable-dummy.m in Sources */,
+				FD2DFCDE044041939C1079C9ABD4FC1B /* Restartable.swift in Sources */,
+				956F46ABDE556D9248A19F9507A79BD1 /* RestartableManageable.swift in Sources */,
+				BE98C84F181A982D5C4F1E519938162B /* RestartableState.swift in Sources */,
+				58F68695259CB12771631E1BE9EF0AE5 /* RestartableStateable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3633F2ECE341E1CCED9C56BA45A39A16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,25 +442,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC25FC155C50CC924F5525D064AD6FD5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C53A418BD5D41FD1ED4E3BAA1D4205B /* JVRestartable-dummy.m in Sources */,
-				51056AEB771587B5194DF9CE03CF9255 /* Restartable.swift in Sources */,
-				C03FC2B5AF90A9C49FDE987C1FB087F9 /* RestartableManageable.swift in Sources */,
-				C154F393E51160DFD1AE1CC5D6DF4F54 /* RestartableState.swift in Sources */,
-				00B9E00344275F94F62DCEC691FB6321 /* RestartableStateable.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		443C3E98056F525D10CA0014A25FFD5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVRestartable;
-			target = DB9AAD00F169073B0203E97560B42F4E /* JVRestartable */;
+			target = 2EDB19CDD87F3420C595CB47FC568598 /* JVRestartable */;
 			targetProxy = 7232122CF701A98EFC4D9168E2918BD0 /* PBXContainerItemProxy */;
 		};
 		ABBD026DE5578726FE85AAD581A4EF7A /* PBXTargetDependency */ = {
@@ -455,7 +460,7 @@
 		C5919D8358DC84E93C3C16983E11A564 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVRestartable;
-			target = DB9AAD00F169073B0203E97560B42F4E /* JVRestartable */;
+			target = 2EDB19CDD87F3420C595CB47FC568598 /* JVRestartable */;
 			targetProxy = A74B1261B8C797CF5A61F94AA01DD37D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -492,6 +497,40 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C56752DB2999B4100C474375ADBD990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16350288F263F2A9BF017665D5F7D79 /* JVRestartable.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVRestartable/JVRestartable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVRestartable/JVRestartable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVRestartable/JVRestartable.modulemap";
+				PRODUCT_MODULE_NAME = JVRestartable;
+				PRODUCT_NAME = JVRestartable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -562,40 +601,6 @@
 			};
 			name = Debug;
 		};
-		9584F171305E8BFE5FFE6223AFB05763 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7AF71483B56D8D2103D446AC0FD77C /* JVRestartable.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVRestartable/JVRestartable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVRestartable/JVRestartable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVRestartable/JVRestartable.modulemap";
-				PRODUCT_MODULE_NAME = JVRestartable;
-				PRODUCT_NAME = JVRestartable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		98C26183A35A62A6601ADCA61CF98B06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3827389CB157DA733B25950C4AB4CA33 /* JVTimeable.xcconfig */;
@@ -623,12 +628,48 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A874BEDE7556AD29105A3998B273E857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16350288F263F2A9BF017665D5F7D79 /* JVRestartable.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVRestartable/JVRestartable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVRestartable/JVRestartable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVRestartable/JVRestartable.modulemap";
+				PRODUCT_MODULE_NAME = JVRestartable;
+				PRODUCT_NAME = JVRestartable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B02131792515663C4CFF21C60A472334 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -659,7 +700,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -726,41 +768,6 @@
 			};
 			name = Release;
 		};
-		D23316ADE950F8A8FA50D17F3DDB0B10 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7AF71483B56D8D2103D446AC0FD77C /* JVRestartable.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVRestartable/JVRestartable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVRestartable/JVRestartable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVRestartable/JVRestartable.modulemap";
-				PRODUCT_MODULE_NAME = JVRestartable;
-				PRODUCT_NAME = JVRestartable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F4306B9982CDA5513BFDA00621F965C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3827389CB157DA733B25950C4AB4CA33 /* JVTimeable.xcconfig */;
@@ -787,8 +794,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -826,11 +834,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		736C917896F9EDA2BA69E2062796B3AD /* Build configuration list for PBXNativeTarget "JVRestartable" */ = {
+		69B4DD82890C8B68955F6FE11F2A07EC /* Build configuration list for PBXNativeTarget "JVRestartable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9584F171305E8BFE5FFE6223AFB05763 /* Debug */,
-				D23316ADE950F8A8FA50D17F3DDB0B10 /* Release */,
+				4C56752DB2999B4100C474375ADBD990 /* Debug */,
+				A874BEDE7556AD29105A3998B273E857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
