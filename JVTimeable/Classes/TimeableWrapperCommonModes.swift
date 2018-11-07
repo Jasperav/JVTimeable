@@ -21,7 +21,7 @@ open class TimeableWrapperCommonModes: TimeableWrapper {
                                userInfo: nil,
                                repeats: self.repeatTimerAfterCompletion)
             
-            RunLoop.current.add(self.timer!, forMode: RunLoopMode.commonModes)
+            RunLoop.current.add(self.timer!, forMode: RunLoop.Mode.common)
         }
     }
     
@@ -47,7 +47,7 @@ open class TimeableWrapperCommonModes: TimeableWrapper {
                                userInfo: nil,
                                repeats: false)
             
-            RunLoop.current.add(self.timer!, forMode: RunLoopMode.commonModes)
+            RunLoop.current.add(self.timer!, forMode: RunLoop.Mode.common)
         }
     }
 }
